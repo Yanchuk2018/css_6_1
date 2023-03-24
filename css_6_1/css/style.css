@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,* :before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+border-box{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+body{
+	padding: 30px 30px 0px 0px;
+	line-height: 25px;
+	background-color: lightgray;
+	color: gray;
+}
+p{
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-left: 15%;
+	margin-bottom: 10px;
+}
+div{
+	margin-left: 15%;
+}
+.list li{
+	font-size: 16px;
+}
+.list li:first-child{
+	text-decoration: line-through;
+}
+.list li:first-child:hover{
+	text-decoration: none;
+}
+.list li:nth-child(2){
+	color: black;
+	font-weight: bold;
+}
+.list li:nth-child(2):hover{
+	color: red;
+	font-weight: normal;
+}
+.list li:nth-child(3){
+	font-style: italic;
+}
+.list li:nth-child(3):hover{
+	font-style: normal;
+}
+.list li:last-child{
+	text-transform: uppercase;
+}
+.list li:last-child:hover{
+	text-transform: none;
+}
+.textbutton{
+	margin-left: 14%;
+	margin-top: 30px;
+	font-size: 16px;
+	color: white;
+	background: lightgreen;
+	width: 100px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+.textbutton:hover{
+	margin-left: 14%;
+	margin-top: 30px;
+	font-size: 16px;
+	color: white;
+	background: darkgreen;
+	width: 100px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+.textbutton:active{
+	margin-left: 14%;
+	margin-top: 30px;
+	font-size: 16px;
+	color: white;
+	background: blueviolet;
+	width: 100px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+.textarea{
+	margin-left: 14%;
+	width: 300px;	
+	height: 100px;
+}
+.textarea:focus{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
